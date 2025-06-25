@@ -9,10 +9,17 @@ body {
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
     font-family: "League Spartan", sans-serif;
-    font-size: 0.938rem;
+    font-size: 1.1rem;
     font-weight: 400;
     display: flex;
     flex-direction: column;
+}
+
+.topo {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
 }
 
 .hero h1 {
@@ -27,14 +34,20 @@ body {
 .hero p {
     color: hsl(303, 10%, 53%);
     font-weight: 600;
-    font-size: 1.2rem;
     line-height: 1.5;
     margin: 0;
     text-align: center;
     padding: 0 0.2rem 1.5rem 0.2rem;
 }
 
+.avaliacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .avaliacoes-card {
+    width: 90%;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
     background-color: hsl(300, 24%, 96%);
@@ -49,7 +62,16 @@ body {
     padding-bottom: .5rem;
 }
 
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+
 .depoimento-card {
+    width: 100%;
+    max-width: 355px;
     background-color: hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
     font-size: 1.05rem;
@@ -57,7 +79,7 @@ body {
     border-radius: .5rem;
     padding: 2rem;
     text-align: left;
-    margin: 3rem 1.5rem 1.5rem 1.5rem;
+    margin: 2rem 1.5rem 0 1.5rem;
 }
 
 .perfil {
@@ -85,6 +107,7 @@ footer a {
 }
 
 footer {
+    margin-top: 3rem;
     align-items: center;
     font-size: 1rem;
     color: hsl(300, 43%, 22%);
